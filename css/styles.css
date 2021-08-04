@@ -1,0 +1,193 @@
+body {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat-Bold;
+}
+
+.H3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: ubuntu;
+}
+
+.big-heading {
+  font-family: Montserrat- Black 900;
+  size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Thin 100";
+}
+
+.download-buttom {
+  margin: 5% 3% 5% 0;
+}
+
+.GTW {
+  font-size: 5rem;
+  width: 50rem;
+  color: #ef8172;
+  margin: 0 0 5% 45%;
+  Hover: #ff4c68;
+}
+
+.GTW:Hover {
+  color: #ff4c68;
+}
+
+.para1 {
+  color: #8f8f8f;
+  text-align: center;
+}
+
+.row {
+  padding-top: 80px;
+}
+
+.space {
+  margin-bottom: 80px;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media(max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+    padding-top: 1.5rem;
+  }
+}
+
+#cta {
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  font-family: Montserrat-Black 900;
+  color: #fff;
+  text-align: center;
+  line-height: 3;
+}
+
+.cta-font {
+  font-size: 50px;
+}
+
+.cta-button {
+  margin: 4rem 0;
+}
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 4.5%;
+}
+
+.footer-para {
+  margin: 7% 3% 2% 3%;
+  color: #000;
+  letter-spacing: 1rem;
+}
